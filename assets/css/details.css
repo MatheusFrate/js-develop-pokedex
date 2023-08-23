@@ -1,0 +1,56 @@
+/* Reset de estilos padrão */
+body, h1, h2, p, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o container principal */
+.detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Estilos para os elementos individuais */
+.number {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.types {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.type {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+}
+
+/* Estilo para a imagem do Pokémon */
+#photo {
+    max-width: 200px;
+    height: auto;
+}
+
